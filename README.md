@@ -1,4 +1,7 @@
 # FinerYoutubeFilters
+Current parameters
+* View count
+* Age
 
 1. Need Google API key
 2. Create a folder called "input"
