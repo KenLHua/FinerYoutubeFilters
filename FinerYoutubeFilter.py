@@ -112,9 +112,9 @@ if __name__ == '__main__':
     #args = parseargs()
     
     #arguments
-    video_id_from_channel = "2SkSXn3mQIk"
-    view_threshold = 2000000
-    timeframe = unix_timeframe(weeks=2)
+    video_id_from_channel = "ArD7oyCiXYc"
+    view_threshold = 200000
+    timeframe = unix_timeframe(years=1)
     
 
     YOUTUBE_API_KEY = get_credentials()
@@ -128,12 +128,19 @@ if __name__ == '__main__':
     filtered_df = video_df[video_df['unix'] > timeframe]
     
     #views threshold
-    filtered_df = filtered_df[video_df["views"] > view_threshold]
+    filtered_df = filtered_df[filtered_df["views"] > view_threshold]
+    
+    #sort by most views first
+    filtered_df = filtered_df.sort_values(by=["views"], ascending=False)
+    #sort by oldest first
+    #filtered_df.sort_values(by=["date"], ascending=True)
     
     #print out remaining videos
     i = 1
-    print("In no particular order: \n")
-    for ind,row in filtered_df.iterrows():
-        print(f'{i}. {row["title"]} | https://www.youtube.com/watch?v=o{row["id"]}')
+    
+    print("Top 0 in descending view count order: \n")
+    #print only the top 10
+    for ind,row in filtered_df[:10].iterrows():
+        print(f'{i}. {row["title"]} | https://www.youtube.com/watch?v={row["id"]}')
         i+=1
     
