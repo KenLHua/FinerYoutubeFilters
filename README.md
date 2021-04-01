@@ -1,6 +1,6 @@
 # FinerYoutubeFilters
 
-###Current parameters
+### Current parameters
 * View count
 * Age
 
@@ -14,9 +14,9 @@
 8. ???
 9. Profit!
 
-###Example:
+### Example:
 ![image](https://user-images.githubusercontent.com/32448050/113246330-b161cf80-926d-11eb-91dc-5b2cc1426051.png)
 
-###Disclaimer
+### Disclaimer
 I am in no way affiliated with youtube or any youtube content creators shown in screenshots or inside the program.
 Any videos referenced are just for presenting purposes.
