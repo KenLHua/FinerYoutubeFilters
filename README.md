@@ -2,9 +2,13 @@
 
 # Todo : 
 [ ] - Create a playlist for a user
+
 [ ] - Website for the script so you don't have to download to run it
+
 [ ] - Elapsed time counter / progress bar
+
 [ ] - Show thumbnail of the videos when printing
+
 [ ] - More filters i.e. Like/Dislike threshold, Video length, etc.
 
 ### Current parameters
