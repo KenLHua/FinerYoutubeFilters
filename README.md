@@ -1,9 +1,11 @@
-# FinerYoutubeFilters
+# Finer Youtube Filters
+
 
 ### Current parameters
 * View count
 * Age
 
+## Steps to run the program
 1. Need Google API key
 2. Create a folder called "input"
 3. Create a file called "config.json" inside folder input
