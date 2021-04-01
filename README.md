@@ -1,5 +1,11 @@
 # Finer Youtube Filters
 
+# Todo : 
+[ ] - Create a playlist for a user
+[ ] - Website for the script so you don't have to download to run it
+[ ] - Elapsed time counter / progress bar
+[ ] - Show thumbnail of the videos when printing
+[ ] - More filters i.e. Like/Dislike threshold, Video length, etc.
 
 ### Current parameters
 * View count
@@ -18,6 +24,7 @@
 
 ### Example:
 ![image](https://user-images.githubusercontent.com/32448050/113246330-b161cf80-926d-11eb-91dc-5b2cc1426051.png)
+
 
 ### Disclaimer
 I am in no way affiliated with youtube or any youtube content creators shown in screenshots or inside the program.
